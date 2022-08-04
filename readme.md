@@ -1,0 +1,125 @@
+<h1><b>JAVASCRIPT</b></h1>
+JavaScript is a lightweight, cross-platform, and interpreted compiled programming language which is also known as the scripting language for webpages. It is well-known for the development of web pages.
+
+<h2>Syntax</h2>
+
+```
+<script>
+    // JavaScript Code
+</script>
+```
+<h2><b>Javascript Data Types</b></h2>
+
+Javascript has two types of Data tpes: 
+<li>Primitive Data types</li> 
+ <li>Non-Primitive Data types</li>
+<br>
+<h3><b>Primitive Data Types</b></h3>
+<li>Number</li>
+<li>String</li>
+<li>Boolean</li>
+<li>Undefined</li>
+<li>Null</li>
+<li>Object</li>
+<li>Symbol</li>
+<br>
+<h3><u>Numbers:</u></h3>
+
+A number data type can be an integer, a floating point value, an exponential value, a ‘NaN’ or a ‘Infinity’.
+
+<h3><u>String:</u></h3>
+
+The string data type in JavaScript can be any group of characters enclosed by a single or double-quotes or by backticks.
+
+<h3><u>Boolean:</u></h3>
+
+The boolean data type has only two values, true and false. It is mostly used to check a logical condition. Thus Booleans are logical data types which can be used for comparison of two variables or to check a condition.
+
+<h3><u>Undefined:</u></h3>
+
+Undefined data type means a variable that is not defined. The variable is declared but doesn’t contain any value.
+
+<h3><u>Null:</u></h3>
+
+The null in JavaScript is a data type that is represented by only one value, the ‘null’ itself. A null value means no value.
+
+<h3><u>Symbol:</u></h3>
+
+The ‘symbol’ data type is new in es6. It is one of the new features of es6. The symbol data type defines a property of an object which is private to the object. It refers to the ‘key’ of the key-value pair of an object.
+
+<h3><b>Non-Primitive Data Types</b></h3>
+<li>Object</li>
+<br>
+ <h3><u>Object:</u></h3>
+
+  Object in Javascript is an entity having properties and methods. Everything is an object in javascript.
+  
+  The ‘object’ is a non-primitive data type in JavaScript. Arrays and Functions in JavaScript belong to the ‘object’ data type.
+
+
+
+  <h1><b>Objects in Javascript</b></h1>
+
+Objects, in JavaScript, is the most important data-type and forms the building blocks for modern JavaScript.
+
+Objects are more complex and each object may contain any combination of these primitive data-types as well as reference data-types.
+
+objects in JavaScript may be defined as an unordered collection of related data, of primitive or reference types, in the form of “key: value” pairs.
+
+<h3>Syntax:</h3>
+
+```
+let object_name = {
+    key_name : value,
+    ...
+}
+```
+
+<h1><b>Array in Javascript</b></h1>
+
+An array is a special variable, which can hold more than one value.
+
+JavaScript arrays are resizable and can contain a mix of different data types. 
+
+single array can store values of different data types.
+
+
+<br>
+
+<h3><b><u>Array Initialization</u></b></h3>
+
+An array in JavaScript can be defined and initialized in two ways, array literal and Array constructor syntax.
+
+<b>1. Array Literal</b>
+
+Array literal syntax is simple. It takes a list of values separated by a comma and enclosed in square brackets.
+
+<b>Syntax:</b>
+```
+var <array-name> = [element0, element1, element2,... elementN];
+```
+
+<b>2. Array Constructor</b>
+
+You can initialize an array with Array constructor syntax using new keyword.
+
+The Array constructor has following three forms.
+
+<b>Syntax:</b>
+```
+var arrayName = new Array();
+
+var arrayName = new Array(Number length);
+
+var arrayName = new Array(element1, element2, element3,... elementN);
+```
+
+<h1><b>String</b></h1>
+
+In JavaScript, strings are used to represent and work with a sequence of characters. A string can represent an object as well as the primitive data type. JavaScript automatically converts primitive strings to String objects so that it's possible to use String methods and access properties even for primitive strings.
+
+<br>
+
+<h1><b>Truthy and Falsy value</b></h1>
+
+In JavaScript, a truthy value is a value that is considered true when encountered in a Boolean context. All values are truthy unless they are defined as falsy. That is, all values are truthy except false, 0, -0, 0n, "", null, undefined, and NaN.
