@@ -123,3 +123,5 @@ In JavaScript, strings are used to represent and work with a sequence of charact
 <h1><b>Truthy and Falsy value</b></h1>
 
 In JavaScript, a truthy value is a value that is considered true when encountered in a Boolean context. All values are truthy unless they are defined as falsy. That is, all values are truthy except false, 0, -0, 0n, "", null, undefined, and NaN.
+
+<h1><b>Javascript Operations</b></h1>
