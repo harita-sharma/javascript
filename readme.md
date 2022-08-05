@@ -123,3 +123,35 @@ In JavaScript, strings are used to represent and work with a sequence of charact
 <h1><b>Truthy and Falsy value</b></h1>
 
 In JavaScript, a truthy value is a value that is considered true when encountered in a Boolean context. All values are truthy unless they are defined as falsy. That is, all values are truthy except false, 0, -0, 0n, "", null, undefined, and NaN.
+
+<h1><b>Javascript Operators</b></h1>
+
+<li>Assignment operator</li>
+<li>Airthematic operator</li>
+<li>Logical opeartor</li>
+<li>Bitwise opeartor</li>
+<li>Comparison opeartor</li>
+<li>String opeartor</li>
+
+<br>
+<h1><b>Call by value & Call by reference</b></h1>
+
+Pass by value in JavaScript means that a copy of the actual parameter’s value is made in memory.The original value and the copied value are independent of each other as they both have a different space in memory i.e. on changing the value inside the function, the variable outside the function is not affected.
+
+pass by reference in JavaScript does not create a new space in the memory, instead, we pass the reference/address of the actual parameter which means, the function can access the original value of the variable. Thus, if we change the value of the variable inside the function then the original value also gets changed.
+
+
+<h1><b>Mutability</b></h1>
+
+Mutable objects can be modified (or mutated) after they’re created, and transform into other data or variables.
+
+
+<h1><b>Pure Function</b></h1>
+
+A pure function is a deterministic function. This means when a same input is passed every time, the function will return same output. It depends only on its own arguments.It wont try to change variables out of its scope.
+
+
+<h1><b>Destructing</b></h1>
+
+Destructuring is a JavaScript expression that allows us to extract data from arrays, objects, and maps and set them into new, distinct variables. Destructuring allows us to extract multiple properties, or items, from an array​ at a time.
+
