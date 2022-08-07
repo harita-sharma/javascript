@@ -123,3 +123,100 @@ In JavaScript, strings are used to represent and work with a sequence of charact
 <h1><b>Truthy and Falsy value</b></h1>
 
 In JavaScript, a truthy value is a value that is considered true when encountered in a Boolean context. All values are truthy unless they are defined as falsy. That is, all values are truthy except false, 0, -0, 0n, "", null, undefined, and NaN.
+
+<h1><b>Javascript Operators</b></h1>
+
+<li>Assignment operator</li>
+<li>Airthematic operator</li>
+<li>Logical opeartor</li>
+<li>Bitwise opeartor</li>
+<li>Comparison opeartor</li>
+<li>String opeartor</li>
+
+<br>
+<h1><b>Call by value & Call by reference</b></h1>
+
+Pass by value in JavaScript means that a copy of the actual parameter’s value is made in memory.The original value and the copied value are independent of each other as they both have a different space in memory i.e. on changing the value inside the function, the variable outside the function is not affected.
+
+pass by reference in JavaScript does not create a new space in the memory, instead, we pass the reference/address of the actual parameter which means, the function can access the original value of the variable. Thus, if we change the value of the variable inside the function then the original value also gets changed.
+
+
+<h1><b>Mutability</b></h1>
+
+Mutable objects can be modified (or mutated) after they’re created, and transform into other data or variables.
+
+
+<h1><b>Pure Function</b></h1>
+
+A pure function is a deterministic function. This means when a same input is passed every time, the function will return same output. It depends only on its own arguments.It wont try to change variables out of its scope.
+
+
+<h1><b>Destructing</b></h1>
+
+Destructuring is a JavaScript expression that allows us to extract data from arrays, objects, and maps and set them into new, distinct variables. Destructuring allows us to extract multiple properties, or items, from an array​ at a time.
+
+<h1><b>SetTimeout</b></h1>
+
+The setTimeout() method calls a function after a number of milliseconds.
+
+1 second = 1000 milliseconds.
+
+<h1><b>JavaScript setInterval()</b></h1>
+
+The setInterval() method repeats a block of code at every given timing event.
+
+<h1><b>Callback Function </b></h1>
+
+A function is a block of code that performs a certain task when called.
+
+The benefit of using a callback function is that you can wait for the result of a previous function call and then execute another function call.
+
+
+<h1><b>Promise</b></h1>
+
+In JavaScript, a promise is a good way to handle asynchronous operations. It is used to find out if the asynchronous operation is successfully completed or not.
+
+<br>
+A promise may have one of three states.
+
+<li>Pending</li>
+<li>Fulfilled</li>
+<li>Rejected</li>
+
+<br>
+A promise starts in a pending state. That means the process is not complete. If the operation is successful, the process ends in a fulfilled state. And, if an error occurs, the process ends in a rejected state.
+
+
+<h1><b>Promise Chaining</b></h1>
+
+<b>JavaScript then() method</b>
+
+The then() method is used with the callback when the promise is successfully fulfilled or resolved.
+
+<b>JavaScript catch() method</b>
+
+The catch() method is used with the callback when the promise is rejected or if an error occurs.
+
+
+<h1><b>Async</b></h1>
+
+We use the async keyword with a function to represent that the function is an asynchronous function. The async function returns a promise.
+
+<h1><b>Await</b></h1>
+
+The await keyword is used inside the async function to wait for the asynchronous operation.
+
+<h1><b>Type Casting</b></h1>
+
+In programming, type conversion is the process of converting data of one type to another. For example: converting String data to Number.
+
+There are two types of type conversion in JavaScript.
+
+<li>Implicit Conversion - automatic type conversion</li>
+<li>Explicit Conversion - manual type conversion</li>
+
+<br>
+
+<h1><b>Template literals</b></h1>
+
+Template literals (template strings) allow you to use strings or embedded expressions in the form of a string. They are enclosed in backticks (``).
